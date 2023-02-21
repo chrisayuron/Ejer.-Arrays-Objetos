@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de la página</title>
+    <script defer src="./main.js"></script>
+    <style>
+        table,th,tr,td{
+            border: solid 1px black;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 25px;
+            margin: 10px;
+        }
+        input,select{
+            margin:10px;
+            height: 25px;
+            width: 200px;
+            font-size: 25px;
+        }
+        button{
+            border-radius: 10px;
+            border: none;
+            outline:solid 1px blue ;
+            height: 35px;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+            width: ;
+        }
+    </style>
+</head>
+
+<body>
+    Nombre<input type="text" id="nombre"><br>
+    Edad<input type="number" min="0" id="edad"><br>
+    Genero<select id="genero">
+        <option value=""></option>
+        <option value="f">femenino</option>
+        <option value="m">masculino</option>
+    </select>
+    <br>
+    Fecha de Nacimiento<input type="date" id="fecha"><br>
+    <button id="anadir">AÑADIR DATOS</button>
+    <button id="mNombres">NOMBRES PERSONAS</button>
+    <button id="mEdades">RANGOS EDADES</button>
+    <button id="mGeneros">PORCENTAJE GENEROS</button>
+    <button id="mMes">PERSONAS POR MES</button>
+    <div id="pantalla"></div>
+</body>
+
+</html>
