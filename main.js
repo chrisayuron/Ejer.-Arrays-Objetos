@@ -151,7 +151,7 @@ mostrarMes.addEventListener('click',()=>{
             break
         case 12:mBuscado='Diciembre' 
             break
-        default: mBuscado='No existe'
+        default: mBuscado='No es un número de mes'
     }
     let contenido=`<table><th>${mBuscado}</th><th>Día</th>`
     personasMes.forEach(persona=>{
